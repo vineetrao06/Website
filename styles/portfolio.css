@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.element::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  background: #151d21;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRVT31CxCTY-zZmzx4ggRNzj6_YTqUt0JhW4bUE73zbn4UutfCj&usqp=CAU");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover,
+b {
+  color: #ff7a7a;
+}
+
+li:first-child {
+  float: left;
+}
+
+.topnav li {
+  display: inline-block;
+  padding-right: 7%;
+  margin: 10px 0 0 0;
+  font-size: 36px;
+}
+
+.topnav {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  margin: 50px 0 0 0;
+  text-align: right;
+}
+
+section header {
+  font-family: "Roboto", sans-serif;
+  font-size: 62px;
+  text-align: center;
+  padding: 8%;
+}
+
+footer {
+  text-align: center;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+}
+
+@media screen and (max-width: 1140px) {
+  .features figure img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .topnav li {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .features figure img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .features figure {
+    top: -150px;
+  }
+
+  .topnav li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav li {
+    font-size: 12px;
+  }
+
+  .features figure {
+    padding: 65px 10px;
+  }
+}
+
+p {
+  font-size: 40px;
+}
+
+ul.experiences {
+    display: table;
+    margin: 0 auto;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    transform: translateY(-120px);
+}
+
+ul.experiences li {
+    display: list-item;
+}
